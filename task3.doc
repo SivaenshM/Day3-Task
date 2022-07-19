@@ -1,0 +1,26 @@
+What is the difference between window, screen, and document in JavaScript?
+
+i) Window :-
+
+The window object represents an open window in a browser.It  is a main JavaScript object root, 
+aka the global object in a browser, and it can also be treated as the root of the document object model. You can access it as window.
+
+If a document contain frames (<iframe> tags), the browser creates one window object for the HTML document, and one additional window object for each frame.
+
+ii) The Window Screen Object :-
+
+The Screen interface represents a screen, usually the one on which the current window is being rendered, and is obtained using window.screen.
+
+Note that browsers determine which screen to report as current by detecting which screen has the center of the browser window.
+
+
+iii) document :-
+
+The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.
+
+The DOM tree includes elements such as <body> and <table>, among many others. 
+It provides functionality globally to the document, like how to obtain the page's URL and create new elements in the document.
+
+The Document interface describes the common properties and methods for any kind of document. 
+Depending on the document's type (e.g. HTML, XML, SVG, …), a larger API is available: HTML documents, served with the "text/html" content type, 
+also implement the HTMLDocument interface, whereas XML and SVG documents implement the XMLDocument interface.

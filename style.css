@@ -1,0 +1,47 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1  {
+    color: rgba(75, 72, 213, 0.744);    
+}
+
+h4,h5 {
+    color: rgba(158, 65, 167, 0.749);
+    text-decoration: underline;
+}
+
+p {
+    color: blueviolet; 
+    font-size: 25px;
+
+}
+
+
+a:link { 
+    text-decoration: none; 
+    color: white;
+    font-size: 20px;
+}
+
+
+a:visited { 
+    text-decoration: none; 
+    color: black;
+    font-size: 20px;}
+
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px; 
+}
+
+
+a:active { 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+ }
